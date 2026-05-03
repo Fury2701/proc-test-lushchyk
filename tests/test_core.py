@@ -1,9 +1,8 @@
 import sys
 import os
+from project.core import process
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-
-from project.core import process
 
 
 def test_process_doubles_values():

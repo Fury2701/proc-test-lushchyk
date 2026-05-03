@@ -6,7 +6,7 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')
 
 
 def test_process_triples_values():
-    assert process([1, 2, 3]) == [999, 999, 999]
+    assert process([1, 2, 3]) == [3, 6, 9]
 
 
 def test_process_ignores_non_int():

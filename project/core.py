@@ -1,2 +1,2 @@
 def process(data):
-    return [x * 2 for x in data]
+    return [item * 2 for item in data if isinstance(item, int)]

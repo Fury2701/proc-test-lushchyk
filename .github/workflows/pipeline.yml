@@ -62,7 +62,7 @@ jobs:
         run: |
           python -c "
           print('Running smoke tests...')
-          assert 1 == 1, 'Basic check failed'
+          assert 1 == 2, 'Basic check failed'
           print('Smoke test passed!')
           "
 
